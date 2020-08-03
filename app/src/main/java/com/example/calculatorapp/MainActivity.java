@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
                 int num1 = Integer.parseInt(firstNumber.getText().toString());
                 int num2 = Integer.parseInt(secondNumber.getText().toString());
                 int result = num1 + num2;
+                int r;
 
                 answerTextView.setText(result + "");
             }
